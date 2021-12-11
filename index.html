@@ -331,26 +331,29 @@
                 <h3> Unable to make it in-person to the wedding?</h3>
                 <h4> Watch it streamed live below: </h4>
                 <!-- Live5streaming solutions <live5.in>  -->
-<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/clappr@latest/dist/clappr.min.js"></script>
-<style>
- #clappr{ width: 50%;height: 100%;position: relative; min-height: 320px; margin-bottom: 25px;}
- <!-- #clappr > div{ width:70%;height:100%;position: absolute;} -->
-</style>
-<!-- Paste the following into the <body> -->
-<div id="clappr"></div>
-<script>
- var player = new Clappr.Player({
-  source:
-       "//5fad08a764bfa.streamlock.net/dvr/richard/playlist.m3u8"
-   ,
-    parentId: "#clappr",
-  width: '100%',
-  height: '100%',
-  autoPlay: false,
-    //gaAccount: 'UA-44332211-1',
-  //gaTrackerName: 'MyPlayerInstance'
-  });
-</script>
+                <div class="col-md-12 text-center">
+                  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/clappr@latest/dist/clappr.min.js">
+                    </script>
+                    <style>
+                            #clappr{ width: 50%;height: 100%;position: relative; min-height: 320px; margin-bottom: 25px;}
+                            <!-- #clappr > div{ width:70%;height:100%;position: absolute;} -->
+                    </style>
+                    <!-- Paste the following into the <body> -->
+                    <div id="clappr"></div>
+                 <script>
+                  var player = new Clappr.Player({
+                    source:
+                    "//5fad08a764bfa.streamlock.net/dvr/richard/playlist.m3u8"
+                    ,
+                    parentId: "#clappr",
+                    width: '100%',
+                    height: '100%',
+                    autoPlay: false,
+                     //gaAccount: 'UA-44332211-1',
+                     //gaTrackerName: 'MyPlayerInstance'
+                   });
+                </script>
+                </div>     
                 <p> Note the link is active on 13th Dec 6-9am IST. </p>
                 <p> Issues with the video? Try <a href="https://live5.in/live/nithyadinesh/"> clicking here </a> </p>
             </div>
