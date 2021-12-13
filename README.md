@@ -1,6 +1,6 @@
 # Wedding Website
 A beautiful, feature rich, device friendly wedding website.  
-_See [wedding.rampatra.com](http://www.dineshandnithya.com/) for a demo. 
+_See [http://www.dineshandnithya.com/](https://www.dineshandnithya.com/) for a demo. 
 # Highlights
 1. Slick and fully __responsive__ design.
 2. A nice __Youtube video__ showing your venue.
